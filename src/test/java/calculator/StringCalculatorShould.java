@@ -22,14 +22,14 @@ public class StringCalculatorShould {
 	        assertEquals(stringCalculator.add("1"),1 );
 	        assertEquals(stringCalculator.add("5"), 5);
 	    }
-//	    
-//	    @Test
-//	    public void numbersCommaDelimitedShouldBeSummed() {
-//	        StringCalculator stringCalculator = new StringCalculator();
-//	        assertEquals(stringCalculator.add("1,2"), 3);
-//	        assertEquals(25, stringCalculator.add("10,15"));
-//	    }
-//
+    
+	    @Test
+	    public void numbersCommaDelimitedShouldBeSummed() {
+	        StringCalculator stringCalculator = new StringCalculator();
+	        assertEquals(stringCalculator.add("1,2"), 3);
+	        assertEquals(25, stringCalculator.add("10,15"));
+	    }
+
 //	    @Test
 //	    public void numbersNewlineDelimitedShouldBeSummed() {
 //	    	 StringCalculator stringCalculator = new StringCalculator();
