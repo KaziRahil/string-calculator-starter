@@ -16,12 +16,12 @@ public class StringCalculatorShould {
 	        assertEquals( stringCalculator.add("") , 0);
 	    }
 
-//	    @Test
-//	    public void string_with_single_number_should_return_number_as_int() {
-//	        StringCalculator stringCalculator = new StringCalculator();
-//	        assertEquals(stringCalculator.add("1"),1 );
-//	        assertEquals(stringCalculator.add("5"), 5);
-//	    }
+	    @Test
+	    public void string_with_single_number_should_return_number_as_int() {
+	        StringCalculator stringCalculator = new StringCalculator();
+	        assertEquals(stringCalculator.add("1"),1 );
+	        assertEquals(stringCalculator.add("5"), 5);
+	    }
 //	    
 //	    @Test
 //	    public void numbersCommaDelimitedShouldBeSummed() {
